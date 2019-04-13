@@ -1,7 +1,8 @@
-TypeScript React "useRef" Demo
+TypeScript React "useReducer" Demo
 =================================
 
-使用`useRef`可以让我们使用const来持有一个可能会发生变化的`ref`，并使用`.current`拿到当前最新的element
+`useReducer`跟`useState`有点像，但是多了一个中间层，把对state的更改抽了出来，
+使用action/dispatch的方式显示发送
 
 ```
 npm install
